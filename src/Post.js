@@ -8,7 +8,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import SendIcon from '@mui/icons-material/Send';
 
 function Post({ name, description, message, photoUrl }) {
-  return <div className='post'>
+return <div className='post'>
         <div className='post__header'>
             <Avatar />
             <div className='post__info'>
@@ -29,8 +29,6 @@ function Post({ name, description, message, photoUrl }) {
         </div>
     </div>
 
-    
-  
 }
 
 export default Post
